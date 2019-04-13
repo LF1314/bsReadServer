@@ -40,7 +40,9 @@ app.post('/addbooks',require('./api/addbook'))
 
 // 添加书籍基本信息
 app.post('/addbookbasemess',require('./api/addbookbase'))
+// 获取用户列表
+app.get('/userlist',require('./api/userlist'))
 
 app.listen(7123, () => {
-    console.log('接口运行在7070');
+    console.log('接口运行在7123');
 })
